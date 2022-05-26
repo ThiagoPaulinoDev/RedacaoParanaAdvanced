@@ -1,0 +1,25 @@
+{
+  "description": "Habilita o copiar e colar nas áreas de texto além de substituir o tema padrão por um escuro.",
+  "manifest_version": 2,
+  "name": "Redação Paraná Advanced",
+  "version": "1.0",
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://redacao.pr.gov.br/"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "web_accessible_resources": [
+    "main.418f6f16.chunk.js"
+  ]
+}
+  
