@@ -3,7 +3,7 @@ let targetUrl = chrome.runtime.getURL("main.bff6a12a.chunk.js");
 
 function redirect(requestDetails) {
   console.log("Redirecting: " + requestDetails.url);
-  console.log("Control C Control V Desbloquado");
+  console.log("Control C Control V Desbloqueado");
   return {
       redirectUrl: targetUrl
   };
