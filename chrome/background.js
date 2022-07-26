@@ -1,5 +1,5 @@
 let pattern = "https://redacao.pr.gov.br/static/js/main*";
-let targetUrl = chrome.runtime.getURL("main.bff6a12a.chunk.js");
+let targetUrl = chrome.runtime.getURL("main.89e9ed98.chunk.js");
 
 function redirect(requestDetails) {
   console.log("Redirecting: " + requestDetails.url);
